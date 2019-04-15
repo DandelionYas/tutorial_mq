@@ -10,8 +10,8 @@ import root.domain.SampleResponse;
 
 @Configuration
 @ComponentScan(value = "root")
-@PropertySource({"classpath:file.properties",
-                "classpath:jms.properties"})
+@PropertySource({"classpath:config/file.properties",
+        "classpath:config/jms.properties"})
 public class ApplicationConfiguration {
 
     @Bean
